@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: #555;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+.reviewBannerIo {
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.reviewsBanner-text {
+    color: #555;
+    font-size: 12px;
+    text-decoration: none;
+    width: max-content;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.reviewsBanner-text span img{
+    width: 79px;
+    height: 13px;
+}
+strong {
+    font-size: 14px;
+}
+.title-class {
+    color: #555;
+    font-size: 24px;
+    margin: 0;
+}
+.confirm-button-class {
+    margin: 0;
+    background-color: #0f4c8b;
+}
+
+
+/* Media */
+@media screen and (max-width:330px) {
+    .reviewsBanner-text {
+        font-size: 10px;
+    }
+    strong {
+        font-size: 12px;
+    }
+}

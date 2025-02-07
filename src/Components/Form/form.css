@@ -1,0 +1,135 @@
+.FormBig {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.Form {
+    margin: 0 auto;
+    max-width: 282.5px;
+    text-align: center;
+}
+.error {
+    border-radius: 7px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.errorText {
+    margin: 0;
+}
+.close {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #a94442;
+    font-size: 18px;
+    padding: 0;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .2;
+}
+.close:focus, .close:hover {
+    color: #000;
+    cursor: pointer;
+    filter: alpha(opacity = 50);
+    opacity: .5;
+    text-decoration: none;
+}
+.logintitle {
+    margin: 0;
+    margin-bottom: 20px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 18px;
+}
+.righttext {
+    margin: 0;
+    text-align: right;
+}
+.forgotpass {
+    width: max-content;
+    text-decoration: none;
+    color: #4c84b9;
+    outline: 0;
+    font-size: 14px;
+}
+.forgotpass:hover {
+    text-decoration: underline;
+}
+#forms {
+    margin-bottom: 15px;
+}
+.btnLogin {
+    width: 100%;
+    height: 50px;
+    background-color: #259b24;
+    border: 0;
+    filter: none;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+.btnLogin:hover {
+    background-color: #0a8f08;
+}
+
+
+
+.inputBlock {
+    position: relative;
+    width: 100%;
+}
+.form-control {
+    border: 1px solid #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 1.13125rem;
+    padding: 6px 12px;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    color: #555;
+}
+.placeholder {
+    position: absolute;
+    left: 8px;
+    top: 17px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #cacaca;
+    transition: all 0.5s;
+    transform-origin: 0% 0%;
+    background: none;
+    pointer-events: none;
+    padding: 0 4px;
+    user-select: none;
+}
+.form-control:focus {
+    outline: 1.2px solid #66afe9;
+    border: 1.2px solid #66afe9;
+}
+.form-control:user-valid ~ .placeholder {
+   transform: scale(0.8) translateY(-30px);
+   background: #fff;
+   color: #66afe9;
+}
+.form-control:focus ~ .placeholder {
+   transform: scale(0.8) translateY(-30px);
+   background: #fff;
+   color: #66afe9;
+}
